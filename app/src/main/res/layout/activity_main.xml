@@ -84,7 +84,7 @@
         app:layout_constraintVertical_bias="0.5" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/wagalbl"
         android:layout_width="60dp"
         android:layout_height="wrap_content"
         android:text="Waga:"
@@ -94,6 +94,30 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.54" />
+
+    <Button
+        android:id="@+id/wagabtn"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:text="Ustaw wagę"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.65" />
+
+    <Button
+        android:id="@+id/algorytmbtn"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:text="Algorytm Floyda-Warshalla"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.74" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
